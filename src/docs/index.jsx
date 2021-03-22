@@ -2,14 +2,9 @@ import React from 'react';
 import { render } from 'react-dom';
 import MyClass from './../lib/index';
 
-import './styles.css';
-
+console.log(MyClass);
 function Demo() {
-	return (
-		<>
-			<MyClass />
-		</>
-	);
+	return <></>;
 }
 
 render(<Demo />, document.getElementById('app'));

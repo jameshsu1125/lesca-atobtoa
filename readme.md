@@ -3,21 +3,18 @@
 # Installation
 
 ```sh
-$ npm install <package> --save
+$ npm install lesca-atobtoa --save
 ```
 
 # Usage
 
 ```javascript
-import foo from 'foo';
+import atobtoa from 'lesca-atobtoa';
 ```
 
 # Methods
 
-| method | options | description | default |
-| :----- | :-----: | :---------: | ------: |
-
-# Properties
-
-| Properties | type | description | default |
-| :--------- | :--: | :---------: | ------: |
+| method         | options |  description   | default |
+| :------------- | :-----: | :------------: | ------: |
+| toBase64(JSON) |  json   | json to base64 |         |
+| toJson(str)    |   str   | base64 to json |         |
