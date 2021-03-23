@@ -1,4 +1,4 @@
-export default {
+const atobtoa = {
 	toBase64(data) {
 		return btoa(encodeURIComponent(escape(JSON.stringify(data))));
 	},
@@ -10,3 +10,5 @@ export default {
 		}
 	},
 };
+export default atobtoa;
+export const { toBase64, toJson } = atobtoa;
