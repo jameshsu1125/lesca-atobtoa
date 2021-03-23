@@ -10,6 +10,17 @@ $ npm install lesca-atobtoa --save
 
 ```javascript
 import atobtoa from 'lesca-atobtoa';
+let Data = [
+	{
+		name: 'james',
+		age: '18',
+	},
+];
+
+const Data = [{ name: 'james', age: 18 }];
+const base64 = MyClass.toBase64(Data);
+console.log(base64); //JTI1NUIlMjU3QiUyNTIybmFtZSUyNTIyJTI1M0ElMjUyMmphbWVzJTI1MjIlMjUyQyUyNTIyYWdlJTI1MjIlMjUzQTE4JTI1N0QlMjU1RA==
+console.log(MyClass.toJson(base64)); //[{ name: 'james', age: 18 }]
 ```
 
 # Methods
