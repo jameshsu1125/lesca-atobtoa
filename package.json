@@ -1,6 +1,6 @@
 {
 	"name": "lesca-atobtoa",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "JSON to base64, base64 to json",
 	"main": "lib/index.js",
 	"scripts": {
