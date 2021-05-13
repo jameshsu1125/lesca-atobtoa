@@ -25,7 +25,9 @@ console.log(Atobtoa.toJson(base64)); //[{ name: 'james', age: 18 }]
 
 # Methods
 
-| method         | options |  description   | default |
-| :------------- | :-----: | :------------: | ------: |
-| toBase64(JSON) |  json   | json to base64 |         |
-| toJson(str)    |   str   | base64 to json |         |
+| method               | options |    description     | default |
+| :------------------- | :-----: | :----------------: | ------: |
+| toBase64(JSON, push) |  json   |   json to base64   |         |
+|                      |  push   | increase char code |       0 |
+| toJson(str, push)    |   str   |   base64 to json   |         |
+|                      |  push   | increase char code |       0 |
