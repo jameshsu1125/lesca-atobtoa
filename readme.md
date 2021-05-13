@@ -11,10 +11,10 @@ $ npm install lesca-atobtoa --save
 ```javascript
 import Atobtoa from 'lesca-atobtoa';
 let Data = [
-	{
-		name: 'james',
-		age: '18',
-	},
+  {
+    name: 'james',
+    age: '18',
+  },
 ];
 
 const Data = [{ name: 'james', age: 18 }];
