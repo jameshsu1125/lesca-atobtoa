@@ -28,7 +28,7 @@ const toJson = (str, push = 0) => {
 		});
 		return JSON.parse(unescape(decodeURIComponent(window.atob(result))));
 	} catch {
-		return 'format error';
+		return false;
 	}
 };
 
