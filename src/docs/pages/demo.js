@@ -1,5 +1,5 @@
 import { Box, Button, ButtonGroup, Input, TextField } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { toBase64, toJson } from '../../lib';
 
 const Demo = () => {
