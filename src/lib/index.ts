@@ -26,7 +26,7 @@ const toJson = (str: string, push = 1) => {
     str.split('').forEach((e) => {
       result += String.fromCharCode(e.charCodeAt(0) - push);
     });
-    return JSON.parse(unescape(decodeURIComponent(window.atob(result))));
+    return JSON.parse(unescape(decodeURIComponent(atob(result))));
   } catch {
     return false;
   }
