@@ -1,3 +1,8 @@
+const isNode = typeof window === 'undefined';
+
+const btoa = isNode ? (str: string) => Buffer.from(str).toString('base64') : window.btoa;
+const atob = isNode ? (str: string) => Buffer.from(str, 'base64').toString() : window.atob;
+
 /**
  * toBase64({ name:'james', age:18 }, 3);
  * @param {object} data
