@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib/",
     "target": "es5",
-    "module": "AMD",
+    "module": "commonjs",
     "declaration": true,
     "strict": true,
     "esModuleInterop": true,

@@ -1,6 +1,6 @@
 {
   "name": "lesca-atobtoa",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "encode / decode data to base64",
   "main": "lib/index.js",
   "scripts": {
